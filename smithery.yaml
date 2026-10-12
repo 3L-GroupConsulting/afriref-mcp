@@ -1,0 +1,13 @@
+# Smithery config for a remote (hosted) MCP server. No local build or start command.
+runtime: "container"
+startCommand:
+  type: "http"
+  configSchema:
+    type: "object"
+    properties:
+      api_key:
+        type: "string"
+        description: "Optional prepaid key from https://afriref.dev/pricing. Without it, paid tools explain how to pay per call over x402."
+  exampleConfig: {}
+# Remote deployment: point Smithery at https://afriref.dev/mcp (Streamable HTTP).
+# If Smithery requires a container, use the "external/remote URL" listing flow instead.
