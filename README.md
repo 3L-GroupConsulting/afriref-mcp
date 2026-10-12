@@ -1,3 +1,5 @@
+<p align="center"><img src="logo.png" alt="Afriref logo" width="160"></p>
+
 # Afriref fleet — cited government reference data MCP servers
 
 Seven remote MCP servers (Streamable HTTP) serving official government reference data as cited JSON, one per region:
